@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      border-bottom: 4px solid #1e73be;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    header h1 {
+      float: left;
+      font-size: 24px;
+    }
+
+    header h1 span {
+      color: #1e73be;
+    }
+
+    nav {
+      float: right;
+      margin-top: 5px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #1e73be;
+    }
+
+    .newsletter {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      border: none;
+      width: 250px;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      background: #e8491d;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+
+    .main .content {
+      width: 65%;
+    }
+
+    .main .content h2 {
+      margin-bottom: 15px;
+    }
+
+    .service-box {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .service-box h3 {
+      margin-bottom: 10px;
+    }
+
+    .main .sidebar {
+      width: 30%;
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+    }
+
+    footer {
+      background: #1e73be;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Diseño <span>Multimedia</span></h1>
+      <nav>
+        <a href="inicio.html">INICIO</a>
+        <a href="nosotros.html">NOSOTROS</a>
+        <a href="#" class="active">SERVICIOS</a>
+        <a href="servicios2.html">CONTACTO</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="newsletter container">
+    <h3>Suscríbete a nuestro boletín</h3>
+    <div>
+      <input type="email" placeholder="ingrse su imail">
+      <button>Suscribirse</button>
+    </div>
+  </section>
+
+  <section class="main container">
+    <div class="content">
+      <h2>Servicios</h2>
+
+      <div class="service-box">
+        <h3>Diseño Web</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+        <p><strong>Precio:</strong> $300000 - $1000000</p>
+      </div>
+
+      <div class="service-box">
+        <h3>Desarrollo Web</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+        <p><strong>Precio desde:</strong> $1000000</p>
+      </div>
+
+      <div class="service-box">
+        <h3>Hosting Web</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+        <p><strong>Precio:</strong> $300000</p>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Que hacemos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. 
+      Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, 
+      lacinia et magna.</p>
+    </aside>
+  </section>
+
+  <footer>
+    <p>desarrollo web, copyright @ 2017</p>
+  </footer>
+
+</body>
+</html>
